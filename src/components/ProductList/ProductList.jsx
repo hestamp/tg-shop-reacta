@@ -71,7 +71,7 @@ const ProductList = () => {
       totalPrice: getTotalPrice(addedItems),
       queryId,
     }
-    fetch('https://tgshop.up.railway.app/web-data', {
+    fetch('https://tg-shop-reacta.vercel.app/web-data', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
